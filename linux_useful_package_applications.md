@@ -16,7 +16,7 @@
     
 -   [Tailscale](https://tailscale.com/download/linux/rpi): For Tailnet connection among self devices over the internet
     
--   [x] [Cloudflare](https://dev.to/omarcloud20/a-free-cloudflare-tunnel-running-on-a-raspberry-pi-1jid)  : For internet tunneling and remote usage
+-   [ ] [Cloudflare](https://dev.to/omarcloud20/a-free-cloudflare-tunnel-running-on-a-raspberry-pi-1jid)  : For internet tunneling and remote usage
     
 -   Bash-snippets:  [https://github.com/alexanderepstein/Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets)
     
