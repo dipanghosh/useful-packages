@@ -1,14 +1,8 @@
 # List of useful Packages for Linux.
 ## Useful for early installations.
 -   **Linux distro tryout**: [https://www.onworks.net/](https://www.onworks.net/)
-    
-
   
-
 -   **Useful Packages**: [links collection](https://github.com/rothgar/awesome-tuis) and [sorted list](https://github.com/ibraheemdev/modern-unix)
-    
-
-  
 
 -   Cockpit: web console for raspberry pi
     
@@ -65,9 +59,7 @@
 -   Xclip : X-11 based clipboard management
     
 -   [No-more-secrets](https://github.com/bartobri/no-more-secrets) : fancy encrypted text effect on terminal
-    
--   Protonvpn-cli : Vpn service
-    
+        
 -   [Synaptic package manager](https://itsfoss.com/synaptic-package-manager/) : Package manager
     
 -   [Fsearch](https://github.com/cboxdoerfer/fsearch): GUI search utility
