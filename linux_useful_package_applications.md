@@ -19,7 +19,7 @@
     
 -   [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) :
 ```bash
-zsh plugin manager >>> sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```    
 -   [Powerlevel10k](https://github.com/romkatv/powerlevel10k) : Awesome zsh prompt theme 
 ```bash
