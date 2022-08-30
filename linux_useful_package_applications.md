@@ -1,4 +1,4 @@
-﻿-   **Linux distro tryout**: [https://www.onworks.net/](https://www.onworks.net/)
+-   **Linux distro tryout**: [https://www.onworks.net/](https://www.onworks.net/)
     
 
   
@@ -8,7 +8,7 @@
 
   
 
-**-   Essential**
+##  Essential
     
 
   
@@ -64,7 +64,7 @@
 
   
 
-**-   Optional**
+## Optional
     
 
   
