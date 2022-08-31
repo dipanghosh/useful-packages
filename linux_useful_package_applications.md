@@ -78,6 +78,11 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 -   [Fd](https://github.com/sharkdp/fd) : Uset friendly alternative to find command
     
 -   [Thefuck](https://github.com/nvbn/thefuck) : corrects errors in previous console commands with [zsh plugin](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/thefuck/README.md)
+
+-   [Speedtest](https://www.speedtest.net/apps/cli) : Internet speed testing CLI
+```bash
+sudo apt-get remove speedtest-cli ; curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash && sudo apt-get update && sudo apt-get install speedtest
+```
     
 
   
