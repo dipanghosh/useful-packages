@@ -1,4 +1,4 @@
-## Sources
+﻿## Sources
 
 -   **Linux distro tryout**: [https://www.onworks.net/](https://www.onworks.net/)
     
@@ -13,15 +13,15 @@
 ##  Essential
     
 
-  
 
 -   [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) : Better version of bash shell
     
--   [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) :
+-   [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) : zsh plugin manager
 ```bash
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```    
--   [Powerlevel10k](https://github.com/romkatv/powerlevel10k) : Awesome zsh prompt theme 
+```
+    
+-   [Powerlevel10k](https://github.com/romkatv/powerlevel10k) : Awesome zsh prompt theme
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
@@ -40,13 +40,21 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```bash
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete
 ```
+    
 -   [Neovim](https://github.com/neovim/neovim) : Best CLI Text editor [apt]
     
 -   [vim-plug](https://github.com/junegunn/vim-plug) : neovim plugin panager
 ```bash
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
-
+-   [Docker](https://docs.docker.com/get-docker/) : Running services within containers
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+```
+-   [Docker-compose](https://docs.docker.com/compose/) : Running docker with yaml files
+```bash
+sudo apt-get remove docker-compose; VERSION=$(curl --silent https://api.github.com/repos/docker/compose/releases/latest | grep -Po '"tag_name": "\K.*\d') && DESTINATION=/usr/local/bin/docker-compose && sudo curl -L https://github.com/docker/compose/releases/download/${VERSION}/docker-compose-$(uname -s)-$(uname -m) -o $DESTINATION && sudo chmod 755 $DESTINATION
+```
 -   [Tailscale](https://tailscale.com/download/linux/rpi): For Tailnet connection among self devices over the internet
     
 -   [Bat](https://github.com/sharkdp/bat): Better cat functionality
@@ -78,6 +86,14 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 -   [Fd](https://github.com/sharkdp/fd) : Uset friendly alternative to find command
     
 -   [Thefuck](https://github.com/nvbn/thefuck) : corrects errors in previous console commands with [zsh plugin](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/thefuck/README.md)
+
+-   [Lnav](https://github.com/tstack/lnav) : Log file navigator
+    
+-   [Lazydocker](https://github.com/jesseduffield/lazydocker)  : Docker container TUI
+    
+-   [Ctop](https://github.com/bcicen/ctop) : top like interface for docker containers
+    
+-   [Lazygit](https://github.com/jesseduffield/lazygit) : Git TUI
 
 -   [Speedtest](https://www.speedtest.net/apps/cli) : Internet speed testing CLI
 ```bash
@@ -147,3 +163,5 @@ sudo apt-get remove speedtest-cli ; curl -s https://packagecloud.io/install/repo
 -   [Qalc](https://installati.one/ubuntu/21.04/qalc/) : Easy unit conversions and mathematical operations on terminal [apt]
     
 -   [Httpie](https://github.com/httpie/httpie) : [User friendly interaction](https://httpie.io/docs/cli/examples) with HTTP servers and APIs from the terminal
+
+-   [Gping](https://github.com/orf/gping) : ping with a graph TUI
