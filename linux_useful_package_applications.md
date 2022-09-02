@@ -165,3 +165,5 @@ sudo apt-get remove speedtest-cli ; curl -s https://packagecloud.io/install/repo
 -   [Httpie](https://github.com/httpie/httpie) : [User friendly interaction](https://httpie.io/docs/cli/examples) with HTTP servers and APIs from the terminal
 
 -   [Gping](https://github.com/orf/gping) : ping with a graph TUI
+
+-   [Cronitor-cli](https://github.com/cronitorio/cronitor-cli) : Effective cronjob testing and monitoring
